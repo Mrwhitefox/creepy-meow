@@ -69,12 +69,15 @@ You can also use `pserve development.ini` for an integrated debugger. It is **hi
 #### Usage
 
 **BONUS!** Get a list of all running containers / GET method:
+
 `http://server-address/api/container/list`
 
 **BONUS!** Get info about a specific container (with ID = X) / GET method:
+
 `http://server-address/api/container/info/X`
 
 Create a new container / POST method:
+
 `http://server-address/api/container/create`
 
 You must specify these variables (in the POST method) to create the container :
@@ -83,7 +86,9 @@ You must specify these variables (in the POST method) to create the container :
 	vlan: the VLAN ID. You can choose among : 2, 3, 4
 	
 Here is a curl command to test it:
+
 	curl --data "id=5&vlan=2&ip=192.168.2.5/24" http://server-address/api/container/create 
+
 This will try to create the container ID 5 on VLAN 2 with IP 192.168.2.5/24.
 
 
