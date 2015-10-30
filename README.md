@@ -31,10 +31,10 @@ Example :
 All the containers will be named `containerX`, with X the container ID.
 
 
-### The API
+## The API
 The API is made with Pyramid (a Python framework).
 
-#### Installation
+### Installation
 
 The script "startup.sh" should be copied into /root folder ; and must be started on each boot.
 This can be done by adding it into /etc/rc.local
