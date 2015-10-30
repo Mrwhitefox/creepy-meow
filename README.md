@@ -39,7 +39,7 @@ The API is made with Pyramid (a Python framework).
 The script "startup.sh" should be copied into /root folder ; and must be started on each boot.
 This can be done by adding it into /etc/rc.local
 
-Note : The installation with easy_install may fail with IPv6 only. It moight need an IPv4 address. Though, IPv4 is not required once everything is installed.
+Note : The installation with easy_install may fail with IPv6 only. It might need an IPv4 address. Though, IPv4 is not required once everything is installed.
 
 	sudo easy_install virtualenv
 	virtualenv env
